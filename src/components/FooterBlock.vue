@@ -35,17 +35,26 @@
           <h2>contacts</h2>
           <hr>
           <ul class="text-sm">
-            <li class="telephoneIcon">menu1</li>
-            <li class="telephoneIcon">menu2</li>
-            <li class="mailIcon">menu2</li>
+            <li class="telephoneIcon">8 (812) 234-56-55</li>
+            <li class="telephoneIcon">8 (812) 234-56-55</li>
+            <li class="mailIcon">ojjo@ojjo.ru</li>
           </ul>
         </div>
         <div class="footer-list">
           <h2>Social Media</h2>
           <hr>
           <ul class="text-sm">
-            <li>menu1</li>
-            <li>menu2</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.</li>
+            <li>
+              <div class="social-media-group flex flex-row justify-between">
+                <img src="~@/assets/img/svg/youtube.svg" alt="">
+                <img src="~@/assets/img/svg/vk.svg" alt="">
+                <img src="~@/assets/img/svg/facebook.svg" alt="">
+                <img src="~@/assets/img/svg/telegram.svg" alt="">
+                <img src="~@/assets/img/svg/e__logo.svg" alt="">
+
+              </div>
+            </li>
           </ul>
         </div>
       </div>
@@ -79,9 +88,14 @@ footer {
           padding-top: 3%;
           padding-bottom: 3%;
         }
-        .telephoneIcon {}
+        .telephoneIcon {
+          list-style-image: url(~@/assets/img/svg/phone__icon.svg);
+        }
 
-        .mailIcon {}
+        .mailIcon {
+          list-style-image: url(~@/assets/img/svg/mail__icon.svg);
+
+        }
       }
     }
   }

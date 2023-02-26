@@ -85,8 +85,38 @@ export const newsArticles = [
 export const  startPageGalery = [
   {
     id: 1,
-    image_url: "~@/assets/img/startPageGalery/gallery__image_x1_01.png",
-    itemStyle: "",
+    image_url: require("./assets/img/startPageGalery/gallery__image_x1_01.png"),
+    itemStyle: "odd-line",
     imageStyle: "",
-  }
+  },
+  {
+    id: 2,
+    image_url: require("./assets/img/startPageGalery/gallery__image_x1_02.png"),
+    itemStyle: "odd-line",
+    imageStyle: "",
+  },
+  {
+    id: 3,
+    image_url: require('./assets/img/startPageGalery/gallery__image_x1_03.png'),
+    itemStyle: "odd-line",
+    imageStyle: "",
+  },
+  {
+    id: 4,
+    image_url: require('./assets/img/startPageGalery/gallery__image_x1_04.png'),
+    itemStyle: "even-line",
+    imageStyle: "",
+  },
+  {
+    id: 5,
+    image_url: require('./assets/img/startPageGalery/gallery__image_x1_05.png'),
+    itemStyle: "even-line",
+    imageStyle: "",
+  },
+  {
+    id: 6,
+    image_url: require('./assets/img/startPageGalery/gallery__image_x1_06.png'),
+    itemStyle: "even-line",
+    imageStyle: "",
+  },
 ]

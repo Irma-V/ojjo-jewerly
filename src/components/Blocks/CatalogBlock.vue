@@ -93,7 +93,7 @@ export default {
     methods: {
         selectTag(tag) {
             this.selectedTag = tag
-        }
+        },
     }
 }
 </script>

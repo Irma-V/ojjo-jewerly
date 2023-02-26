@@ -6,7 +6,7 @@
           <li class="partners-item border-r-[0.1rem] last:border-r-0">
             <img src="~@/assets/img/logo/fine_jewerly.png" alt="">
           </li>
-          <li class="partners-item">
+          <!-- <li class="partners-item">
             <img src="~@/assets/img/logo/fine_jewerly.png" alt="">
           </li>
           <li class="partners-item">
@@ -20,7 +20,7 @@
           </li>
           <li class="partners-item">
             <img src="~@/assets/img/logo/fine_jewerly.png" alt="">
-          </li>
+          </li> -->
         </ul>
       </div>
     </content>

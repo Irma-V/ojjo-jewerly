@@ -4,66 +4,37 @@
             <TitleBlock title="We're on social media" description="#ojjo_jewerly"></TitleBlock>
             <div class="start-page-galery">
                 <div class="start-page-galery__wrapper grid grid-cols-4">
-                    <div class="start-page-galery-item h-[18.75rem] overflow-hidden grid_a">
-                        <img src="~@/assets/img/startPageGalery/gallery__image_x1_01.png" class="w-full h-wull object-cover"
+                    <div v-for="element in startPageGalery" :key="element" class="start-page-galery-item h-[18.75rem] overflow-hidden" :class="element.itemStyle">
+                        <img :src="element.image_url" class="w-full h-wull object-cover" :class="element.imageStyle"
                             alt="">
                     </div>
-                    <div class="start-page-galery-item h-[18.75rem] grid_b">
+
+                    <!-- <div class="start-page-galery-item h-[18.75rem]">
                         <img src="~@/assets/img/startPageGalery/gallery__image_x1_02.png" class="w-full h-wull object-cover"
                             alt="">
 
                     </div>
-                    <div class="start-page-galery-item h-[18.75rem] grid_c">
+                    <div class="start-page-galery-item h-[18.75rem]">
                         <img src="~@/assets/img/startPageGalery/gallery__image_x1_03.png" class="w-full h-wull object-cover"
                             alt="">
 
                     </div>
-                    <div class="start-page-galery-item h-[18.75rem] grid_d">
+                    <div class="start-page-galery-item h-[18.75rem]">
                         <img src="~@/assets/img/startPageGalery/gallery__image_x1_04.png" class="w-full h-wull object-cover"
                             alt="">
 
                     </div>
-                    <div class="start-page-galery-item h-[18.75rem] grid_e">
+                    <div class="start-page-galery-item h-[18.75rem]">
                         <img src="~@/assets/img/startPageGalery/gallery__image_x1_05.png" class="w-full h-wull object-cover"
                             alt="">
 
                     </div>
-                    <div class="start-page-galery-item h-[18.75rem] grid_f">
+                    <div class="start-page-galery-item h-[18.75rem]">
                         <img src="~@/assets/img/startPageGalery/gallery__image_x1_06.png" class="w-full h-wull object-cover"
                             alt="">
 
-                    </div>
-                    
-                    <div class="start-page-galery-item h-[18.75rem] overflow-hidden grid_a">
-                        <img src="~@/assets/img/startPageGalery/gallery__image_x1_01.png" class="w-full h-wull object-cover"
-                            alt="">
-                    </div>
-                    <div class="start-page-galery-item h-[18.75rem] grid_b">
-                        <img src="~@/assets/img/startPageGalery/gallery__image_x1_02.png" class="w-full h-wull object-cover"
-                            alt="">
+                    </div> -->
 
-                    </div>
-                    <div class="start-page-galery-item h-[18.75rem] grid_c">
-                        <img src="~@/assets/img/startPageGalery/gallery__image_x1_03.png" class="w-full h-wull object-cover"
-                            alt="">
-
-                    </div>
-                    <div class="start-page-galery-item h-[18.75rem] grid_d">
-                        <img src="~@/assets/img/startPageGalery/gallery__image_x1_04.png" class="w-full h-wull object-cover"
-                            alt="">
-
-                    </div>
-                    <div class="start-page-galery-item h-[18.75rem] grid_e">
-                        <img src="~@/assets/img/startPageGalery/gallery__image_x1_05.png" class="w-full h-wull object-cover"
-                            alt="">
-
-                    </div>
-                    <div class="start-page-galery-item h-[18.75rem] grid_f">
-                        <img src="~@/assets/img/startPageGalery/gallery__image_x1_06.png" class="w-full h-wull object-cover"
-                            alt="">
-
-                    </div>
-                    
                 </div>
             </div>
         </content>
@@ -71,6 +42,7 @@
 </template>
 <script>
 import TitleBlock from './TitleBlock.vue';
+import { startPageGalery } from '@/database-mock';
 
 export default {
     name: "GaleryBlock",
@@ -82,7 +54,7 @@ export default {
     },
     data() {
         return {
-
+            startPageGalery: startPageGalery,
         }
     }
 }
@@ -100,9 +72,14 @@ export default {
 
 // для растянутых
 .odd-line {
-    grid-column: 1/3;
+    &:first-child {
+        grid-column: 1/3;
+    }
 }
+
 .even-line {
-    grid-column: 3/5;
+    &:last-child {
+        grid-column: 3/5;
+    }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <header class="w-full fixed z-50">
-    <div class="header-wrapper max-w-[120rem] text-white text-sm">
-      <div class="header-content w-3/4 flex flex-row justify-between py-6">
+    <div class="header-content m-auto max-w-[120rem] text-white text-sm">
+      <div class="header-wrapper m-auto w-3/4 flex flex-row justify-between py-6">
         <div class="header-list">
           <ul>
             <li>menu1</li>
@@ -41,12 +41,8 @@ export default {
 
 <style scoped lang="scss">
 header {
-  .header-wrapper {
-    margin: 0 auto;
-    // padding: 0;
-    .header-content {
-      margin: 0 auto;
-      // padding: 0;
+  .header-content {
+    .header-wrapper {
 
       .header-list {
         flex-basis: 30%;

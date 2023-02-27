@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import CatalogBlock from "./Blocks/CatalogBlock.vue";
+import CatalogBlock from "./Blocks/TagsCategoriesBlock.vue";
 import FirstSlide from "./Blocks/FirstSlide/FirstSlide.vue";
 import GaleryBlock from "./Blocks/GaleryBlock.vue";
 import NewsBlock from "./Blocks/NewsBlock.vue";

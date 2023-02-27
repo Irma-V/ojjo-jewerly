@@ -15,11 +15,14 @@
 </template>
 <script>
 
-import ButtonDarkGray from '../ButtonsStyle/ButtonDarkGray.vue';
+import ButtonDarkGray from '../../generalBlocks/ButtonsStyle/ButtonDarkGray.vue';
+
+
+
 export default {
     name: "WelcomeBlock",
     components: {
-    ButtonDarkGray
+    ButtonDarkGray,
 },
     props: {
 

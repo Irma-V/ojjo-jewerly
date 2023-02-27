@@ -1,6 +1,6 @@
 <template>
   <footer class="w-full py-[3.75rem]">
-    <content class="flex flex-col px-[15%] font-sans tracking-tight text-xl">
+    <content class="flex flex-col px-[15%] font-sans tracking-tight text-xl text-[#333333]">
 
       <div class="footer-wrapper flex flex-row justify-between font-thin">
         <div class="footer-list">
@@ -59,6 +59,16 @@
         </div>
       </div>
       <hr>
+      <div class="flex flex-row justify-between font-thin text-sm">
+        <span>(c) 2023 OJJO jewelry</span>
+        <span>public offer agreement</span>
+        <span>To counterparties</span>
+        <span class="font-bold ">
+          <a href="#">
+            by Vermel Irma
+          </a>
+        </span>
+      </div>
     </content>
   </footer>
 </template>
@@ -88,6 +98,7 @@ footer {
           padding-top: 3%;
           padding-bottom: 3%;
         }
+
         .telephoneIcon {
           list-style-image: url(~@/assets/img/svg/phone__icon.svg);
         }

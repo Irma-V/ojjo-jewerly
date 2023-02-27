@@ -9,25 +9,6 @@
                             <ButtonWithBorder :is-active="tag.id === selectedTag.id" @click="selectTag(tag)"
                                 :button-name="tag.title"></ButtonWithBorder>
                         </li>
-                        <!-- <li class="tags-item basis-[10%]">
-                            <ButtonWithBorder button-name="MARRIAGE"></ButtonWithBorder>
-                        </li>
-                        <li class="tags-item basis-[10%]">
-                            <ButtonWithBorder button-name="to husband"></ButtonWithBorder>
-                        </li>
-                        <li class="tags-item basis-[10%]">
-                            <ButtonWithBorder button-name="to wife"></ButtonWithBorder>
-                        </li>
-                        <li class="tags-item basis-[10%]">
-                            <ButtonWithBorder button-name="to a partner"></ButtonWithBorder>
-                        </li>
-                        <li class="tags-item basis-[10%]">
-                            <ButtonWithBorder button-name="collections"></ButtonWithBorder>
-                        </li>
-                        <li class="tags-item basis-[10%]">
-                            <ButtonWithBorder button-name="rarity"></ButtonWithBorder>
-                        </li> -->
-
                     </ul>
 
                     <div class="categories-catalog uppercase font-thin text-xl text-white">
@@ -38,22 +19,6 @@
                                     <h1>{{ category.title }}</h1>
                                 </div>
                             </div>
-                            <!-- <div class="categories-catalog-item w-full h-[17.5rem] bg-rings">
-                            </div>
-                            <div class="categories-catalog-item w-full h-[17.5rem] bg-earrings">
-                            </div>
-
-                            <div class="categories-catalog-item w-full h-[17.5rem] bg-pendants">
-                            </div>
-
-                            <div class="categories-catalog-item w-full h-[17.5rem] bg-cufflinks">
-                            </div>
-
-                            <div class="categories-catalog-item w-full h-[17.5rem] bg-bracelets">
-                            </div>
-
-                            <div class="categories-catalog-item w-full h-[17.5rem] bg-watch">
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -62,8 +27,8 @@
     </section>
 </template>
 <script>
-import ButtonWithBorder from './ButtonsStyle/ButtonWithBorder.vue';
-import TitleBlock from './TitleBlock.vue';
+import ButtonWithBorder from '../generalBlocks/ButtonsStyle/ButtonWithBorder.vue';
+import TitleBlock from '../generalBlocks/TitleBlock.vue';
 import { tags, categories } from '@/database-mock';
 
 export default {
@@ -110,3 +75,15 @@ export default {
     }
 }
 </style>
+
+<!-- 
+    <li class="tags-item basis-[10%]">
+        ButtonWithBorder button-name="marriage, to husband, to wife, to a partner, collections, rarity></ButtonWithBorder>
+    </li>
+-->
+
+<!--
+    <div class="categories-catalog-item w-full h-[17.5rem] bg-rings/bg-earrings"/bg-pendants"/bg-cufflinks"/bg-bracelets"/bg-watch">
+    
+    </div> 
+-->

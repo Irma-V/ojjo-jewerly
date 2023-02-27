@@ -9,13 +9,6 @@
                            <h1 class="w-1/2 text-center">{{ article.text }}</h1>
                         </div>
                     </li>
-
-                    <!-- <li class="news-article w-full h-[23.125rem]">
-                        <h1 class="gray-gradient w-full h-full flex justify-center items-end py-[3%]"></h1>
-                    </li>
-                    <li class="news-article w-full h-[23.125rem]">
-                        <h1 class="gray-gradient w-full h-full flex justify-center items-end py-[3%]"></h1>
-                    </li> -->
                 </ul>
                 <div class="btn w-1/4 m-auto">
                     <ButtonDarkGray button-name="read our blog"></ButtonDarkGray>
@@ -25,8 +18,8 @@
     </section>
 </template>
 <script>
-import ButtonDarkGray from './ButtonsStyle/ButtonDarkGray.vue';
-import TitleBlock from './TitleBlock.vue';
+import ButtonDarkGray from '../generalBlocks/ButtonsStyle/ButtonDarkGray.vue';
+import TitleBlock from '../generalBlocks/TitleBlock.vue';
 import { newsArticles } from '@/database-mock';
 
 

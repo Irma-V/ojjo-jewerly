@@ -3,7 +3,7 @@
         <content>
             <div class="subscription-block">
                 <div class="subscription-block__wrapper flex flex-col justify-between items-center">
-                    <TitleBlock title="exclusive mailing of letters" description="Useful tips and personalized offers">
+                    <TitleBlock title="Exclusive mailing of letters" description="Useful tips and personalized offers">
                     </TitleBlock>
 
                     <div class="sub-item font-sans font-thin tracking-tight text-xl w-4/6 h-28 mb-[6.25rem]">

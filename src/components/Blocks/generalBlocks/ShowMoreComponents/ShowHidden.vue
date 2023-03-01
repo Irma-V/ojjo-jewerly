@@ -3,21 +3,21 @@
         <div ref="mainContent" class="hide-and-show__main-content" :class="mainContentStyle">
             <slot name="mainContent"></slot>
         </div>
-        <div class="show-more cursor-pointer" :class="ShowMoreButtonStyle" @click="showFullContent()">
-            <slot name="ShowMoreButton"></slot>
+        <div class="show-more cursor-pointer" :class="showMoreButtonStyle" @click="showFullContent()">
+            <slot name="showMoreButton"></slot>
         </div>
     </div>
 </template>
 <script>
 export default {
-    name: "HideAndShowContent",
+    name: "ShowHidden",
     components: {
 
     },
     props: {
         showHeight: {
             type: Number,
-            default: 15,
+            // default: 15,
         },
         hideAndShowStyle: {
             type: String,
@@ -27,7 +27,7 @@ export default {
             type: String,
             default: '',
         },
-        ShowMoreButtonStyle: {
+        showMoreButtonStyle: {
             type: String,
             default: '',
         },
@@ -53,13 +53,14 @@ export default {
 
             this.$refs.mainContent.style.maxHeight = this.showHeight + "rem"
             this.$refs.mainContent.style.overflow = "hidden"
-            console.log(this.$refs.mainContent.style.maxHeight);
+            // console.log(this.$refs.mainContent.style.maxHeight);
+            // console.log(this.$refs.mainContent.firstChild);
 
         },
 
         showFullContent() {
             if (this.hideContent) {
-                this.$refs.mainContent.style.maxHeight = "100%"
+                this.$refs.mainContent.style.maxHeight = "max-content"
                 this.$refs.mainContent.style.overflow = "none"
                 this.hideButton()
             }
@@ -68,5 +69,16 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+.hide-and-show-content {
+    // .hide-and-show__main-content {
+    //     background-color: wheat;
+    //     transition: all 1s ease-out;
 
+    //     &:hover {
+    //         background-color: white;
+    //     }
+    // }
+
+    .show-more {}
+}
 </style>

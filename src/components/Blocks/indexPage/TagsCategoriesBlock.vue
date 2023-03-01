@@ -32,7 +32,7 @@ import TitleBlock from '../generalBlocks/TitleBlock.vue';
 import { tags, categories } from '@/database-mock';
 
 export default {
-    name: "CatalogBlock",
+    name: "TagsCategoriesBlock",
     components: {
         TitleBlock,
         ButtonWithBorder

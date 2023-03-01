@@ -91,6 +91,18 @@ export const categories = [
   },
 ];
 
+export const products = [
+  {
+    productId: "pendant01",
+    product: "pendant",
+    productCategory: "pendants",
+    productImg_url: require('./assets/img/catalog/pendants/Rectangle.png'),
+    productName: "Dolce & Gabanna",
+    productPrice: "1 400 $",
+
+  },
+]
+
 export const newsArticles = [
   {
     id: 1,
@@ -148,7 +160,7 @@ export const  startPageGalery = [
   },
 ]
 
-export const aboutServiceNews = [
+export const services = [
   {
     id: 1,
     svg_url: require('./assets/img/svg/delivery.svg'),

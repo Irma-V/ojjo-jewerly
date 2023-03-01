@@ -101,6 +101,51 @@ export const products = [
     productPrice: "1 400 $",
 
   },
+  {
+    productId: "pendant02",
+    product: "pendant",
+    productCategory: "pendants",
+    productImg_url: require('./assets/img/catalog/pendants/Rectangle03.png'),
+    productName: "Dolce & Gabanna",
+    productPrice: "1 500 $",
+
+  },
+  {
+    productId: "pendant03",
+    product: "pendant",
+    productCategory: "pendants",
+    productImg_url: require('./assets/img/catalog/pendants/Rectangle02.png'),
+    productName: "Dolce & Gabanna",
+    productPrice: "1 600 $",
+
+  },
+  {
+    productId: "ring01",
+    product: "ring",
+    productCategory: "rings",
+    productImg_url: require('./assets/img/catalog/pendants/Rectangle02.png'),
+    productName: "Dolce & Gabanna",
+    productPrice: "1 000 $",
+
+  },
+  {
+    productId: "ring02",
+    product: "ring",
+    productCategory: "rings",
+    productImg_url: require('./assets/img/catalog/pendants/Rectangle.png'),
+    productName: "Dolce & Gabanna",
+    productPrice: "1 500 $",
+
+  },
+  {
+    productId: "ring03",
+    product: "ring",
+    productCategory: "rings",
+    productImg_url: require('./assets/img/catalog/pendants/Rectangle03.png'),
+    productName: "Dolce & Gabanna",
+    productPrice: "900 $",
+
+  },
 ]
 
 export const newsArticles = [

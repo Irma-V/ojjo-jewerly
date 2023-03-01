@@ -1,7 +1,13 @@
-<template></template>
+<template>
+    <section>
+        <content>
+            BreadCrumbs
+        </content>
+    </section>
+</template>
 <script>
 export default {
-    name: "NavBlock",
+    name: "BreadCrumbs",
     components: {
 
     },
@@ -10,7 +16,7 @@ export default {
     },
     data() {
         return {
-            
+
         }
     }
 }

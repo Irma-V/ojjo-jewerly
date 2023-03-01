@@ -5,8 +5,9 @@
     <NewsBlock></NewsBlock>
     <GaleryBlock></GaleryBlock>
     <SubscriptionBlock></SubscriptionBlock>
-    <AboutItBlock></AboutItBlock>
-    <CatalogBlock></CatalogBlock>
+
+    <CatalogPage></CatalogPage>
+    <ProductPage></ProductPage>
 </template>
 
 <script>
@@ -16,8 +17,8 @@ import GaleryBlock from "./Blocks/indexPage/GaleryBlock.vue";
 import NewsBlock from "./Blocks/indexPage/NewsBlock.vue";
 import OffersBlock from "./Blocks/generalBlocks/OffersBlock.vue";
 import SubscriptionBlock from "./Blocks/generalBlocks/SubscriptionBlock.vue";
-import AboutItBlock from "./Blocks/CatalogPage/AboutItBlock.vue";
-import CatalogBlock from "./Blocks/CatalogPage/CatalogBlock.vue";
+import CatalogPage from "./CatalogPage.vue";
+import ProductPage from "./ProductPage.vue";
 
 export default {
     name: "StartPage",
@@ -28,8 +29,8 @@ export default {
     OffersBlock,
     GaleryBlock,
     SubscriptionBlock,
-    AboutItBlock,
-    CatalogBlock
+    CatalogPage,
+    ProductPage
 },
 
     data() {

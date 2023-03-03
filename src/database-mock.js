@@ -96,7 +96,12 @@ export const products = [
     productId: "pendant01",
     product: "pendant",
     productCategory: "pendants",
-    productImg_url: require('./assets/img/catalog/pendants/Rectangle.png'),
+    productImg_url: require('./assets/img/catalog/pendants/Rectangle01.png'),
+    productGalery_url: [
+      require('./assets/img/catalog/pendants/Rectangle01.png'),
+      require('./assets/img/catalog/pendants/Rectangle01_for_galery/Rectangle01_for_galery01.png'),
+      require('./assets/img/catalog/pendants/Rectangle01_for_galery/Rectangle01_for_galery02.png')
+    ],
     productName: "Dolce & Gabanna",
     productPrice: "1 400 $",
 

@@ -54,7 +54,6 @@ export default {
         return {
             showHeight: 15,
             services: services,
-            // descriptions: services,
             selectedService: null
         }
     },

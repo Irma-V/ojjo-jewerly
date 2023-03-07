@@ -10,7 +10,7 @@
           </ul>
         </div>
         <div class="logo">
-          <router-link :to="{ name: 'StartPage' }">
+          <router-link :to="{ name: 'IndexPage' }">
             <img src="~@/assets/img/logo/OJJO.png" alt="OJJO.png" />
           </router-link>
         </div>

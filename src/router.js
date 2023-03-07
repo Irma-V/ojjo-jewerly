@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import StartPage from "./components/StartPage.vue";
+import IndexPage from "./components/IndexPage.vue";
 import CatalogPage from "./components/CatalogPage.vue";
 import ProductPage from "./components/ProductPage.vue";
 
@@ -7,7 +7,7 @@ import ProductPage from "./components/ProductPage.vue";
 export default createRouter({
     history: createWebHashHistory(),
     routes: [
-      { path: "/StartPage", name: "StartPage", component: StartPage, alias: "/" },
+      { path: "/IndexPage", name: "IndexPage", component: IndexPage, alias: "/" },
       { path: "/CatalogPage", name: "CatalogPage", component: CatalogPage},
       //ProductPage
       { 

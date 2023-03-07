@@ -47,14 +47,7 @@ export default {
             type: String,
             // default: "подвеска",
         },
-        productImg_url: {
-            type: Array,
-        },
         productName: {
-            type: String,
-            // default: "D&G",
-        },
-        productDescription: {
             type: String,
             // default: "D&G",
         },
@@ -62,6 +55,14 @@ export default {
             type: String,
             // default: "1 400 $",
         },
+        
+        // productImg_url: {
+        //     type: Array,
+        // },
+
+        // productDescription: {
+        //     type: String,
+        // },
     },
     data() {
         return {};

@@ -21,7 +21,7 @@ import SubscriptionBlock from "./Blocks/generalBlocks/SubscriptionBlock.vue";
 // import ProductPage from "./ProductPage.vue";
 
 export default {
-    name: "StartPage",
+    name: "IndexPage",
     components: {
     FirstSlide,
     TagsCategoriesBlock,

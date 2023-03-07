@@ -1,7 +1,9 @@
 <template>
-  <WelcomeBlock></WelcomeBlock>
-  <hr>
-  <PartnersBlock></PartnersBlock>
+  <div class="first-slide-block">
+    <WelcomeBlock></WelcomeBlock>
+    <hr>
+    <PartnersBlock></PartnersBlock>
+  </div>
 </template>
 
 <script>
@@ -18,4 +20,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.first-slide-block {
+  $mainBackground: url(~@/assets/img/background/bgc.png);
+  background-image: $mainBackground;
+  background-position: top, center;
+  background-repeat: no-repeat;
+  // margin: 0 auto;
+  // padding: 0;
+}
 </style>

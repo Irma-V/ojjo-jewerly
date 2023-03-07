@@ -16,9 +16,13 @@
                             <div v-for="category in categoriesByTag" :key="category"
                                 class="categories-catalog-item w-full h-[17.5rem]" :class="category.bgImg">
                                 <div class="category gray-gradient w-full h-full flex justify-center items-end py-[3%]">
-                                    <h1>{{ category.title }}</h1>
+                                    <router-link :to="{ name: 'CatalogPage' }">
+                                        <h1>{{ category.title }}</h1>
+                                    </router-link>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                 </div>

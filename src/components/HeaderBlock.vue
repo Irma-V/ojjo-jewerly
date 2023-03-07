@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full fixed z-50">
+  <header class="w-full fixed z-50 bg-[#333333]">
     <div class="header-content m-auto max-w-[120rem] text-white text-sm">
       <div class="header-wrapper m-auto w-3/4 flex flex-row justify-between py-6">
         <div class="header-list">
@@ -10,7 +10,9 @@
           </ul>
         </div>
         <div class="logo">
-          <img src="~@/assets/img/logo/OJJO.png" alt="OJJO.png" />
+          <router-link :to="{ name: 'StartPage' }">
+            <img src="~@/assets/img/logo/OJJO.png" alt="OJJO.png" />
+          </router-link>
         </div>
         <div class="header-list">
           <ul>

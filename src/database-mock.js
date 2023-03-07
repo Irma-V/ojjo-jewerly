@@ -23,7 +23,7 @@ export const partnersLogos = [
     id: 6,
     logo_url: require("./assets/img/logo/fine_jewerly.png"),
   },
-]
+];
 
 export const tags = [
   {
@@ -96,82 +96,103 @@ export const products = [
     productId: "pendant01",
     product: "pendant",
     productCategory: "pendants",
-    productImg_url: require('./assets/img/catalog/pendants/Rectangle01.png'),
+    productImg_url: require("./assets/img/catalog/pendants/Galery_Rectangle01/Rectangle01_01.png"),
     productGalery_url: [
-      require('./assets/img/catalog/pendants/Rectangle01.png'),
-      require('./assets/img/catalog/pendants/Rectangle01_for_galery/Rectangle01_for_galery01.png'),
-      require('./assets/img/catalog/pendants/Rectangle01_for_galery/Rectangle01_for_galery02.png')
+      require("./assets/img/catalog/pendants/Galery_Rectangle01/Rectangle01_01.png"),
+      require("./assets/img/catalog/pendants/Galery_Rectangle01/Rectangle01_02.png"),
+      require("./assets/img/catalog/pendants/Galery_Rectangle01/Rectangle01_03.png"),
     ],
     productName: "Dolce & Gabanna",
+    productDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit mattis scelerisque odio nunc. Ipsum quis facilisis turpis vulputate. Viverra dignissim in nec phasellus. Tincidunt est ipsum diam, vestibulum dignissim dui diam. Et nulla sit convallis orci est, fames sit luctus lacus. Nunc donec malesuada amet eget eget pharetra. Ultricies et, ac varius at amet viverra feugiat non massa. Vel vel in urna, sodales urna ac sed felis. Tellus augue et senectus malesuada faucibus sollicitudin ornare. Sit non et sit enim in ornare velit. Ac imperdiet vitae, orci, nec scelerisque enim sit enim risus. Et nulla sit convallis orci est, fames sit luctus lacus.",
     productPrice: "1 400 $",
-
   },
   {
     productId: "pendant02",
     product: "pendant",
     productCategory: "pendants",
-    productImg_url: require('./assets/img/catalog/pendants/Rectangle03.png'),
+    productImg_url: require("./assets/img/catalog/pendants/Galery_Rectangle02/Rectangle02_01.png"),
+    productGalery_url: [
+      require("./assets/img/catalog/pendants/Galery_Rectangle02/Rectangle02_01.png"),
+      require("./assets/img/catalog/pendants/Galery_Rectangle02/Rectangle02_02.png"),
+      require("./assets/img/catalog/pendants/Galery_Rectangle02/Rectangle02_03.png"),
+    ],
     productName: "Dolce & Gabanna",
     productPrice: "1 500 $",
-
   },
   {
     productId: "pendant03",
     product: "pendant",
     productCategory: "pendants",
-    productImg_url: require('./assets/img/catalog/pendants/Rectangle02.png'),
+    productImg_url: require("./assets/img/catalog/pendants/Galery_Rectangle03/Rectangle03_01.png"),
+    productGalery_url: [
+      require("./assets/img/catalog/pendants/Galery_Rectangle03/Rectangle03_01.png"),
+      require("./assets/img/catalog/pendants/Galery_Rectangle03/Rectangle03_02.png"),
+      require("./assets/img/catalog/pendants/Galery_Rectangle03/Rectangle03_03.png"),
+    ],
     productName: "Dolce & Gabanna",
     productPrice: "1 600 $",
-
   },
   {
     productId: "ring01",
     product: "ring",
     productCategory: "rings",
-    productImg_url: require('./assets/img/catalog/pendants/Rectangle02.png'),
+    productImg_url: require("./assets/img/catalog/pendants/Galery_Rectangle01/Rectangle01_01.png"),
+    productGalery_url: [
+      require("./assets/img/catalog/pendants/Galery_Rectangle01/Rectangle01_01.png"),
+      require("./assets/img/catalog/pendants/Galery_Rectangle01/Rectangle01_02.png"),
+      require("./assets/img/catalog/pendants/Galery_Rectangle01/Rectangle01_03.png"),
+    ],
     productName: "Dolce & Gabanna",
     productPrice: "1 000 $",
-
   },
   {
     productId: "ring02",
     product: "ring",
     productCategory: "rings",
-    productImg_url: require('./assets/img/catalog/pendants/Rectangle.png'),
+    productImg_url: require("./assets/img/catalog/pendants/Galery_Rectangle02/Rectangle02_01.png"),
+    productGalery_url: [
+      require("./assets/img/catalog/pendants/Galery_Rectangle02/Rectangle02_01.png"),
+      require("./assets/img/catalog/pendants/Galery_Rectangle02/Rectangle02_02.png"),
+      require("./assets/img/catalog/pendants/Galery_Rectangle02/Rectangle02_03.png"),
+    ],
     productName: "Dolce & Gabanna",
     productPrice: "1 500 $",
-
   },
   {
     productId: "ring03",
     product: "ring",
     productCategory: "rings",
-    productImg_url: require('./assets/img/catalog/pendants/Rectangle03.png'),
+    productImg_url: require("./assets/img/catalog/pendants/Galery_Rectangle03/Rectangle03_01.png"),
+    productGalery_url: [
+      require("./assets/img/catalog/pendants/Galery_Rectangle03/Rectangle03_01.png"),
+      require("./assets/img/catalog/pendants/Galery_Rectangle03/Rectangle03_02.png"),
+      require("./assets/img/catalog/pendants/Galery_Rectangle03/Rectangle03_03.png"),
+    ],
     productName: "Dolce & Gabanna",
     productPrice: "900 $",
-
   },
-]
+];
 
 export const newsArticles = [
   {
     id: 1,
-    bgImg:'watch_for_wife',
-    text: "How to choose a watch for your future wife"
+    bgImg: "watch_for_wife",
+    text: "How to choose a watch for your future wife",
   },
   {
     id: 2,
-    bgImg:'cufflinks_for_husdand',
+    bgImg: "cufflinks_for_husdand",
     text: "Cufflinks for husband: 7 key rules for buying an accessory",
   },
   {
     id: 3,
-    bgImg:'wedding_ring',
+    bgImg: "wedding_ring",
     text: "How to choose wedding rings for newlyweds",
   },
-]
+];
 
-export const  startPageGalery = [
+export const startPageGalery = [
   {
     id: 1,
     image_url: require("./assets/img/startPageGalery/gallery__image_x1_01.png"),
@@ -186,53 +207,57 @@ export const  startPageGalery = [
   },
   {
     id: 3,
-    image_url: require('./assets/img/startPageGalery/gallery__image_x1_03.png'),
+    image_url: require("./assets/img/startPageGalery/gallery__image_x1_03.png"),
     itemStyle: "odd-line",
     imageStyle: "",
   },
   {
     id: 4,
-    image_url: require('./assets/img/startPageGalery/gallery__image_x1_04.png'),
+    image_url: require("./assets/img/startPageGalery/gallery__image_x1_04.png"),
     itemStyle: "even-line",
     imageStyle: "",
   },
   {
     id: 5,
-    image_url: require('./assets/img/startPageGalery/gallery__image_x1_05.png'),
+    image_url: require("./assets/img/startPageGalery/gallery__image_x1_05.png"),
     itemStyle: "even-line",
     imageStyle: "",
   },
   {
     id: 6,
-    image_url: require('./assets/img/startPageGalery/gallery__image_x1_06.png'),
+    image_url: require("./assets/img/startPageGalery/gallery__image_x1_06.png"),
     itemStyle: "even-line",
     imageStyle: "",
   },
-]
+];
 
 export const services = [
   {
     id: 1,
-    svg_url: require('./assets/img/svg/delivery.svg'),
-    title: 'free delivery',
-    description: 'free delivery Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.'
+    svg_url: require("./assets/img/svg/delivery.svg"),
+    title: "free delivery",
+    description:
+      "free delivery Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.",
   },
   {
     id: 2,
-    svg_url: require('./assets/img/svg/designe.svg'),
-    title: 'individual designe',
-    description: 'individual designe Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.'
+    svg_url: require("./assets/img/svg/designe.svg"),
+    title: "individual designe",
+    description:
+      "individual designe Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.",
   },
   {
     id: 3,
-    svg_url: require('./assets/img/svg/fitting.svg'),
-    title: 'free fitting',
-    description: 'free fitting Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.'
+    svg_url: require("./assets/img/svg/fitting.svg"),
+    title: "free fitting",
+    description:
+      "free fitting Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.",
   },
   {
     id: 4,
-    svg_url: require('./assets/img/svg/jewerly.svg'),
-    title: 'individual approach',
-    description: 'individual approach Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.'
+    svg_url: require("./assets/img/svg/jewerly.svg"),
+    title: "individual approach",
+    description:
+      "individual approach Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.",
   },
-]
+];

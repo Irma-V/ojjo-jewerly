@@ -1,6 +1,9 @@
 <template>
   <BreadCrumbs></BreadCrumbs>
-  <ProductCard></ProductCard>
+  <ProductCard :productId="productId" :product="product" :productCategory="productCategory"
+    :productImg_url="productImg_url" :productGalery_url="productGalery_url" :productName="productName"
+    :productDescription="productDescription" :productPrice="productPrice">
+  </ProductCard>
   <AboutItBlock></AboutItBlock>
   <ProductOffers></ProductOffers>
   <SubscriptionBlock></SubscriptionBlock>
@@ -19,7 +22,35 @@ export default {
     ProductCard,
     AboutItBlock,
     SubscriptionBlock,
-    ProductOffers
-},
+    ProductOffers,
+    SubscriptionBlock
+  },
+  props: {
+    productId: {
+      type: String,
+      required: true,
+      default: null,
+    },
+    /* // productImg_url: {
+    //   type: String,
+    // },
+    // product: {
+    //   type: String,
+    // },
+    // productImg_url: {
+    //   type: Array,
+    // },
+    // productName: {
+    //   type: String,
+    // },
+    // productDescription: {
+    //   type: String,
+    // },
+    // productPrice: {
+    //   type: String,
+    // }, */
+  },
 };
+
 </script>
+
